@@ -1,0 +1,48 @@
+[2024-12-03 10:06:35,679] 55 - logger.py - ERROR - Error while saving log to DB: 1049 (42000): Unknown database 'cx360_testing'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Documents\Shyena_tech_Y\cx360\customer_support1\.venv\lib\site-packages\mysql\connector\connection_cext.py", line 334, in _open_connection
+    self._cmysql.connect(**cnx_kwargs)
+_mysql_connector.MySQLInterfaceError: Unknown database 'cx360_testing'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Documents\Shyena_tech_Y\cx360\customer_support1\CS_2\logger.py", line 33, in save_log_to_db
+    connection = mysql.connector.connect(
+  File "C:\Users\DELL\Documents\Shyena_tech_Y\cx360\customer_support1\.venv\lib\site-packages\mysql\connector\pooling.py", line 322, in connect
+    return CMySQLConnection(*args, **kwargs)
+  File "C:\Users\DELL\Documents\Shyena_tech_Y\cx360\customer_support1\.venv\lib\site-packages\mysql\connector\connection_cext.py", line 151, in __init__
+    self.connect(**kwargs)
+  File "C:\Users\DELL\Documents\Shyena_tech_Y\cx360\customer_support1\.venv\lib\site-packages\mysql\connector\abstracts.py", line 1399, in connect
+    self._open_connection()
+  File "C:\Users\DELL\Documents\Shyena_tech_Y\cx360\customer_support1\.venv\lib\site-packages\mysql\connector\connection_cext.py", line 339, in _open_connection
+    raise get_mysql_exception(
+mysql.connector.errors.ProgrammingError: 1049 (42000): Unknown database 'cx360_testing'
+[2024-12-03 10:06:35,711] 64 - api_main.py - INFO - -------------------------New ETL Iteration -----------------------
+
+[2024-12-03 10:09:05,730] 200 - api_main.py - INFO - Transform API hit
+NoneType: None
+[2024-12-03 10:15:15,068] 64 - api_main.py - INFO - -------------------------New ETL Iteration -----------------------
+
+[2024-12-03 10:16:01,963] 200 - api_main.py - INFO - Transform API hit
+NoneType: None
+[2024-12-03 10:24:04,169] 64 - api_main.py - INFO - -------------------------New ETL Iteration -----------------------
+
+[2024-12-03 10:25:04,000] 200 - api_main.py - INFO - Transform API hit
+NoneType: None
+[2024-12-03 10:27:44,814] 64 - api_main.py - INFO - -------------------------New ETL Iteration -----------------------
+
+[2024-12-03 10:28:14,627] 200 - api_main.py - INFO - Transform API hit
+NoneType: None
+[2024-12-03 10:31:20,822] 64 - api_main.py - INFO - -------------------------New ETL Iteration -----------------------
+
+[2024-12-03 10:31:41,041] 200 - api_main.py - INFO - Transform API hit
+NoneType: None
+[2024-12-03 11:03:13,460] 64 - api_main.py - INFO - -------------------------New ETL Iteration -----------------------
+
+[2024-12-03 11:04:10,765] 200 - api_main.py - INFO - Transform API hit
+NoneType: None
+[2024-12-03 11:14:57,324] 64 - api_main.py - INFO - -------------------------New ETL Iteration -----------------------
+
+[2024-12-03 11:15:14,358] 200 - api_main.py - INFO - Transform API hit
+NoneType: None

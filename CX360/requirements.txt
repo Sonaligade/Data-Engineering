@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+mysql-connector
+boto3
+pydantic
+findspark
+pyspark
+pandas
+python-multipart
+pymysql

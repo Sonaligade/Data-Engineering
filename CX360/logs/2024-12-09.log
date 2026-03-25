@@ -1,0 +1,80 @@
+[2024-12-09 11:37:10,874] 58 - api_main.py - INFO - -------------------------New ETL Iteration -----------------------
+
+[2024-12-09 11:37:14,766] 58 - api_main.py - INFO - -------------------------New ETL Iteration -----------------------
+
+[2024-12-09 11:38:55,509] 66 - api_main.py - INFO - Starting MongoDB data fetching...
+[2024-12-09 11:38:55,652] 44 - mongo_user_read.py - INFO - Function fetching_user_data_from_mongo is started
+[2024-12-09 11:39:02,449] 55 - mongo_user_read.py - INFO - Reading role data from MongoDB
+[2024-12-09 11:39:03,352] 76 - mongo_user_read.py - INFO - Selecting and renaming columns
+[2024-12-09 11:39:03,666] 82 - mongo_user_read.py - INFO - Casting and transforming columns
+[2024-12-09 11:39:03,934] 93 - mongo_user_read.py - INFO - writing data frame at C:\Users\DELL\Documents\Shyena_tech_Y\cx360\customer_support1\CS_2\data_files\final_load
+[2024-12-09 11:39:18,809] 100 - mongo_user_read.py - INFO - Customer Data successfully saved to local at C:\Users\DELL\Documents\Shyena_tech_Y\cx360\customer_support1\CS_2\data_files\final_load
+[2024-12-09 11:39:18,809] 105 - mongo_user_read.py - INFO - file created successfully C:\Users\DELL\Documents\Shyena_tech_Y\cx360\customer_support1\CS_2\data_files\final_load/user_data\user_data_2024-12-09_11-39-18.json
+[2024-12-09 11:39:18,809] 46 - mongo_client_read.py - INFO - Starting to read customer data from MongoDB
+[2024-12-09 11:39:21,182] 66 - mongo_client_read.py - INFO - Number of records fetched from MongoDB: 123
+[2024-12-09 11:39:21,383] 83 - mongo_client_read.py - INFO - writing data frame at C:\Users\DELL\Documents\Shyena_tech_Y\cx360\customer_support1\CS_2\data_files\final_load
+[2024-12-09 11:39:22,214] 90 - mongo_client_read.py - INFO - Customer Data successfully saved to local at C:\Users\DELL\Documents\Shyena_tech_Y\cx360\customer_support1\CS_2\data_files\final_load/client_data\client_data_2024-12-09_11-39-22.json
+[2024-12-09 11:39:22,253] 44 - mongo_org_read.py - INFO - Starting to read organization data from MongoDB
+[2024-12-09 11:39:23,349] 64 - mongo_org_read.py - INFO - Number of records fetched from MongoDB: 194
+[2024-12-09 11:39:23,643] 94 - mongo_org_read.py - INFO - writing data frame at C:\Users\DELL\Documents\Shyena_tech_Y\cx360\customer_support1\CS_2\data_files\final_load
+[2024-12-09 11:39:24,710] 101 - mongo_org_read.py - INFO - Customer Data successfully saved to local at C:\Users\DELL\Documents\Shyena_tech_Y\cx360\customer_support1\CS_2\data_files\final_load/org_data\org_data_2024-12-09_11-39-24.json
+[2024-12-09 11:39:24,710] 106 - mongo_org_read.py - INFO - file created successfully C:\Users\DELL\Documents\Shyena_tech_Y\cx360\customer_support1\CS_2\data_files\final_load/org_data\org_data_2024-12-09_11-39-24.json
+[2024-12-09 11:39:24,710] 53 - mongo_call_read.py - INFO - Starting the mongo_call_read process....
+[2024-12-09 11:39:24,866] 106 - mongo_call_read.py - INFO - empty final_call_df created.
+[2024-12-09 11:39:28,996] 128 - mongo_call_read.py - INFO - Fetching call data from MongoDB as df
+[2024-12-09 11:39:46,415] 144 - mongo_call_read.py - INFO - Number of call records fetched from MongoDB: 931
+[2024-12-09 11:39:46,788] 173 - mongo_call_read.py - INFO - Data flattened successfully.
+[2024-12-09 11:40:00,141] 289 - mongo_call_read.py - INFO - call Data successfully saved to C:\Users\DELL\Documents\Shyena_tech_Y\cx360\customer_support1\CS_2\data_files\final_load/call_data\call_data_2024-12-09_11-40-00.json
+[2024-12-09 11:40:00,168] 85 - api_main.py - INFO - Data fetched from MongoDB successfully.
+[2024-12-09 11:40:00,198] 98 - api_main.py - INFO - Starting Data validation...
+[2024-12-09 11:40:00,244] 154 - api_main.py - INFO - Data validation Done...
+[2024-12-09 11:40:00,276] 154 - api_main.py - INFO - Data validation Done...
+[2024-12-09 11:40:00,568] 154 - api_main.py - INFO - Data validation Done...
+[2024-12-09 11:40:00,595] 175 - api_main.py - INFO - Transformation started...
+[2024-12-09 11:40:29,107] 191 - api_main.py - INFO - user_data successfully loaded to database
+[2024-12-09 11:40:55,911] 202 - api_main.py - INFO - organisation_data successfully loaded to database
+[2024-12-09 11:41:19,991] 213 - api_main.py - INFO - client_data successfully loaded to database
+[2024-12-09 11:41:43,323] 224 - api_main.py - INFO - product_data successfully loaded to database
+[2024-12-09 11:42:05,958] 235 - api_main.py - INFO - crm_data successfully loaded to database
+[2024-12-09 11:42:29,589] 246 - api_main.py - INFO - user_data successfully loaded to database
+[2024-12-09 11:45:57,797] 257 - api_main.py - INFO - Transformation Done...
+[2024-12-09 12:34:24,508] 58 - api_main.py - INFO - -------------------------New ETL Iteration -----------------------
+
+[2024-12-09 12:34:28,152] 58 - api_main.py - INFO - -------------------------New ETL Iteration -----------------------
+
+[2024-12-09 12:35:26,424] 66 - api_main.py - INFO - Starting MongoDB data fetching...
+[2024-12-09 12:35:26,441] 44 - mongo_user_read.py - INFO - Function fetching_user_data_from_mongo is started
+[2024-12-09 12:35:32,592] 55 - mongo_user_read.py - INFO - Reading role data from MongoDB
+[2024-12-09 12:35:33,394] 76 - mongo_user_read.py - INFO - Selecting and renaming columns
+[2024-12-09 12:35:33,747] 82 - mongo_user_read.py - INFO - Casting and transforming columns
+[2024-12-09 12:35:34,025] 93 - mongo_user_read.py - INFO - writing data frame at C:\Users\DELL\Documents\Shyena_tech_Y\cx360\customer_support1\CS_2\data_files\final_load
+[2024-12-09 12:35:43,324] 100 - mongo_user_read.py - INFO - Customer Data successfully saved to local at C:\Users\DELL\Documents\Shyena_tech_Y\cx360\customer_support1\CS_2\data_files\final_load
+[2024-12-09 12:35:43,325] 105 - mongo_user_read.py - INFO - file created successfully C:\Users\DELL\Documents\Shyena_tech_Y\cx360\customer_support1\CS_2\data_files\final_load/user_data\user_data_2024-12-09_12-35-43.json
+[2024-12-09 12:35:43,325] 46 - mongo_client_read.py - INFO - Starting to read customer data from MongoDB
+[2024-12-09 12:35:46,456] 66 - mongo_client_read.py - INFO - Number of records fetched from MongoDB: 123
+[2024-12-09 12:35:46,605] 83 - mongo_client_read.py - INFO - writing data frame at C:\Users\DELL\Documents\Shyena_tech_Y\cx360\customer_support1\CS_2\data_files\final_load
+[2024-12-09 12:35:47,783] 90 - mongo_client_read.py - INFO - Customer Data successfully saved to local at C:\Users\DELL\Documents\Shyena_tech_Y\cx360\customer_support1\CS_2\data_files\final_load/client_data\client_data_2024-12-09_12-35-47.json
+[2024-12-09 12:35:47,814] 44 - mongo_org_read.py - INFO - Starting to read organization data from MongoDB
+[2024-12-09 12:35:49,280] 64 - mongo_org_read.py - INFO - Number of records fetched from MongoDB: 194
+[2024-12-09 12:35:49,543] 94 - mongo_org_read.py - INFO - writing data frame at C:\Users\DELL\Documents\Shyena_tech_Y\cx360\customer_support1\CS_2\data_files\final_load
+[2024-12-09 12:35:50,462] 101 - mongo_org_read.py - INFO - Customer Data successfully saved to local at C:\Users\DELL\Documents\Shyena_tech_Y\cx360\customer_support1\CS_2\data_files\final_load/org_data\org_data_2024-12-09_12-35-50.json
+[2024-12-09 12:35:50,462] 106 - mongo_org_read.py - INFO - file created successfully C:\Users\DELL\Documents\Shyena_tech_Y\cx360\customer_support1\CS_2\data_files\final_load/org_data\org_data_2024-12-09_12-35-50.json
+[2024-12-09 12:35:50,462] 53 - mongo_call_read.py - INFO - Starting the mongo_call_read process....
+[2024-12-09 12:35:50,621] 106 - mongo_call_read.py - INFO - empty final_call_df created.
+[2024-12-09 12:36:00,193] 128 - mongo_call_read.py - INFO - Fetching call data from MongoDB as df
+[2024-12-09 12:36:16,203] 144 - mongo_call_read.py - INFO - Number of call records fetched from MongoDB: 931
+[2024-12-09 12:36:16,552] 173 - mongo_call_read.py - INFO - Data flattened successfully.
+[2024-12-09 12:36:31,349] 289 - mongo_call_read.py - INFO - call Data successfully saved to C:\Users\DELL\Documents\Shyena_tech_Y\cx360\customer_support1\CS_2\data_files\final_load/call_data\call_data_2024-12-09_12-36-31.json
+[2024-12-09 12:36:31,380] 85 - api_main.py - INFO - Data fetched from MongoDB successfully.
+[2024-12-09 12:36:31,397] 98 - api_main.py - INFO - Starting Data validation...
+[2024-12-09 12:36:31,448] 154 - api_main.py - INFO - Data validation Done...
+[2024-12-09 12:36:31,484] 154 - api_main.py - INFO - Data validation Done...
+[2024-12-09 12:36:31,818] 154 - api_main.py - INFO - Data validation Done...
+[2024-12-09 12:36:31,839] 175 - api_main.py - INFO - Transformation started...
+[2024-12-09 12:37:00,277] 191 - api_main.py - INFO - user_data successfully loaded to database
+[2024-12-09 12:37:28,172] 202 - api_main.py - INFO - organisation_data successfully loaded to database
+[2024-12-09 12:38:00,252] 213 - api_main.py - INFO - client_data successfully loaded to database
+[2024-12-09 12:38:20,371] 224 - api_main.py - INFO - product_data successfully loaded to database
+[2024-12-09 12:38:47,388] 235 - api_main.py - INFO - crm_data successfully loaded to database
+[2024-12-09 12:39:07,393] 246 - api_main.py - INFO - user_data successfully loaded to database
+[2024-12-09 12:42:41,412] 257 - api_main.py - INFO - Transformation Done...
